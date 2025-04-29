@@ -20,4 +20,4 @@ class Paypal : public PaymentMethod
         {
             cout<<" Processing Paypa payment of $ "<<amount<<'\n';
         }
-}
+};
