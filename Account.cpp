@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 class Account
 {
     private:
@@ -14,11 +16,11 @@ class Account
         if(balance >= amount)
         {
             balance -= amount;
-            cout<<"Balance after payment: $ " <<Balance<<'\n';
+            cout<<"Balance after payment: $ " <<balance<<'\n';
         }
         else
         {
-            cout<< "Insufficient funds for transaction.\n"
+            cout<< "Insufficient funds for transaction.\n";
         }
     }
 };
